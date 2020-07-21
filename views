@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Productos</title>
+   
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/main.css">
+
+</head>
+<body>
+	<div class="container">
+    	<div class="row">
+    		<div class="col-md-12 col-sm-12 col-xs-12">
+              <h1 class="header">Productos</h1>
+    		</div>
+		</div>
+	</div>
+			<nav>
+		        <ul class="nav nav-pills nav-justified">
+		          <li role="presentation"><a href="../index.html">Inicio</a></li>
+		          <li role="presentation"><a href="./productos.html">Productos</a></li>
+		          <li role="presentation"><a href="./nosotros.html">Nosotros</a></li>
+		          <li role="presentation"><a href="./mapasintacc.html">Mapa sin TACC</a></li>
+		          <li role="presentation"><a href=""> Recetas</a></li>
+		          <li role="presentation"><a href="">¿Qué es TACC?</a></li>
+		        </ul>
+			</nav>
+<main class="area">
+	<p class="area__parrafo">Comercios que venden productos sin TACC en Bahía Blanca</p>
+		<div class="flexcontainer">
+			<div class="flexcontainer__flexitem">
+				<a href="http://cruncheras.com/"> <img src="../img/cruncheras.jpg" alt="Cruncheras pizzas glutenfree"> </a>
+				<p id="parrafo"> Cruncheras</p>
+				<p class="texto">
+					Rincón 310
+					<br>
+					TEL: 291 5101008
+				</p>
+			</div>
+			<div class="flexcontainer__flexitem">
+				<a href="http://www.saboresintacc.com/#!/-principal/"> <img src="../img/saboressintacc.jpg" alt="Sabores sin tacc"> </a>
+				<p id="parrafo">Sabores sin Tacc</p>
+				<p class="texto"> 
+					Estomba 279
+					<br>
+					TEL: 291 4742311
+				</p>
+			</div>
+			<div class="flexcontainer__flexitem"> 
+				<a href="https://www.violet.com.ar/"> <img src="../img/violet.jpg" alt="Violet Gluten Free"> </a>
+				<p id="parrafo">Violet Gluten Free</p>
+				<p class="texto">
+					España 185
+					<br>
+					TEL: 291 5011133
+				</p>
+			</div>
+			<div class="flexcontainer__flexitem"> 
+				<a href="https://www.facebook.com/puntocrunch.alem/"><img src="../img/puntocrunch.jpg" alt="Punto Crunch"> </a>
+				<p id="parrafo">Punto Crunch</p>
+				<p class="texto">
+				Av. Alem 841
+				<br>
+				TEL: 291 5101008
+				</p>
+			</div>
+			<div class="flexcontainer__flexitem"> 
+				<a href="https://www.facebook.com/Magicfood-853293685017841/"><img src="../img/magicfood.png" alt="Magic Food"> </a>
+				<p id ="parrafo">MagicFood </p>
+				<p class="texto">
+				Av. Alem 2064
+				<br>
+				TEL: 291 4414291
+				</p>
+			</div>
+			<div class="flexcontainer__flexitem">
+				<a href="https://sweetsglutenfree.mitiendanube.com/"> <img src="../img/sweet.jpg" alt="Sweets Gluten Free Bakery"> </a>
+				<p id="parrafo"> Sweets Gluten Free Bakery </p>
+				<p class="texto">
+				TEL: 291 4498655
+				</p>
+			</div>
+		</div>
+<!--SEGUIR AGREGANDO OTROS COMERCIOS-->
+<a href="../index.html"><h4>Volver al inicio</h4></a>
+</main>
+<hr>
+<footer class="footer">
+    <div class="footer__item1"><p class="texto"><a href="./nosotros.html">Nosotros</p></a></div>
+    <div class="footer__item2"><p class="texto"> ¿Querés sumar tu comercio? <a href="./formulario.html">¡Escribinos!</a></p></div>
+    <div class="footer__item3"><p class="texto"> REDES SOCIALES </p></div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+</body>
+</html>
